@@ -119,14 +119,16 @@ footer {
   .header-nav ul {
     flex-direction: row;
   }
-  .description,
-  .cta {
-    width: 50%;
+  main {
+    flex-direction: row;
   }
+  .left,
   .right {
-    position: absolute;
-    right: 0;
-    width: 50%;
+    flex: 1;
+  }
+
+  .right {
+    position: relative;
   }
   .pink {
     background-color: rgba(247, 136, 167, 0.6);
